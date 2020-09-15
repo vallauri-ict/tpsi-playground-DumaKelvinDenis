@@ -1,0 +1,31 @@
+#tabella{
+    width: 900px;
+    margin: 0 auto;
+    border-style: double;
+    border-width: 5pt;
+    border-color: green;
+    font-size: 12pt;
+    text-align: center;
+}
+
+td{
+    border: 1px solid green;
+}
+
+#inserisci{
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+button{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 330px;
+}
+
+.campo{
+    width: 250px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BookStore</title>
+        <script type="text/javascript" src="JS/Index.js"></script>
+        <script src="JS/datiXml.js"></script>
+        <link rel="stylesheet" href="CSS/Stile.css">
+    </head>
+    <body>
+        <button type="button" onclick = "carica();">Carica XML</button>
+        <button type="button" onclick = "leggi();">Leggi XML</button>
+        <div id = "stampa"></div>
+        <div id="pulsante">
+            <button id="pulsanteInserct" onclick="insert()">Inserisci/Modifica Libro</button>
+        </div>
+        <div id="inserisci">
+            <table>
+                <tr>
+                    <td>Titolo</td>
+                    <td>
+                        <input type="text" id="titolo" class="campo"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Categoria</td>
+                    <td>
+                        <input type="text" id="categoria" class="campo"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Autore</td>
+                    <td>
+                        <input type="text" id="autore" class="campo"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Anno</td>
+                    <td>
+                        <input type="text" id="anno" class="campo"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Prezzo</td>
+                    <td>
+                        <input type="text" id="prezzo" class="campo"/>
+                    </td>
+                </tr>
+            </table>
+            <button id="btnInsert" onclick="eseguiInserimento()">Inserisci Libro</button>
+            <button id="btnModify" onclick="eseguiModifica()">Modifica Libro</button>
+            <button id="btnRemove" onclick="eseguiRimozione()">Rimuovi Libro</button>
+        </div>
+    </body>
+</html>
